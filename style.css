@@ -8,3 +8,11 @@ h1{
 h3{
     padding: 6px;
 }
+img{
+    width: 7%
+}
+.ree{
+    display: flex;       
+    align-items: center; 
+    gap: 20px;
+}
