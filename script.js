@@ -90,7 +90,7 @@ function avaliarResposta(){
    let nivel;
 
    if(pontos >=90){
-    nivel = "Invertor de idéias";
+    nivel = "Inventor de idéias";
    }
 
    else if(pontos >=60){
