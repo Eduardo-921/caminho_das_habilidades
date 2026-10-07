@@ -16,6 +16,7 @@ body{
 }
 
 .ree{
+    margin-top: 15px;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -26,7 +27,7 @@ body{
 }
 
 .ree img {
-    width: 50px;             
+    width: 70px;             
     height: auto;
 }
 
@@ -35,7 +36,7 @@ body{
     font-size: 2rem;
 }
 
-.card{
+.container{
     width: 500px;
     background-color: #e8a63c;
     border-radius: 10px;
@@ -44,7 +45,34 @@ body{
     font-family: sans-serif;
 }
 
-.card button {
-    padding: 6px 12px;
+button {
+    padding: 7px 12px;
     cursor: pointer;
+    background-color: hwb(43 34% 51%);
+    border-radius: 9px;
+    margin-bottom: 10px;
+    font-family: "Oswald", sans-serif;;
+}
+
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgb(67, 59, 46);
+}
+button:active{
+    transform: scale(0.9);
+}
+
+#resultado{
+    border-top: 5px solid white;
+    animation: aparecer 0,5s ease;
+}
+
+#resultado h3{
+    font-size: 25px;
+    color: white;
+}
+textarea{
+    border-radius: 10px;
+    font-size: 15px;
+    transition: 0.3s;
 }
